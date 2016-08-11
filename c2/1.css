@@ -1,0 +1,124 @@
+*{
+	padding: 0;
+	margin:0;
+}
+body {
+	font-family: "微软雅黑";
+}
+.main {
+	background-color: #ddd;
+	padding: 25px;
+}
+section {
+	line-height: 35px;
+	background-color: #fff;
+	padding: 25px 10px 10px 20px;
+    box-shadow: 1px 1px 1px #888;
+    margin-bottom: 15px;
+	
+}
+section h3,small {
+	color:#777;
+}
+section ul {
+	list-style: none;
+	margin-left: 10px;
+}
+section ol {
+	margin-left: 30px;
+	font-weight: bold;
+}
+section table {
+	width: 100%;
+	border-collapse: collapse;
+}
+section table th {
+	background-color: #000;
+	color: #fff;
+	text-align: left;
+}
+section table th,td {
+	padding-left: 10px;
+}
+section table tr:last-child {
+	background-color: grey;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+p.sj {
+	text-indent: 2em;
+}
+.info {
+	display: block;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.info p{
+	float:left;
+	width: 35%;
+	text-align: right;
+}
+.tip {
+	color: grey;
+	padding-left: 35%;
+	margin-top: -10px;
+}
+header ul li{
+	float:left;
+	margin-left: 20px;
+	font-size: 15px;
+	cursor: pointer;
+	line-height: 60px;
+}
+header ul li a{
+	color:#fff;
+	text-decoration: none;
+}
+header ul li:last-child a{
+	color:#999;
+}
+header img {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+header nav {
+	margin-right: 30px;
+}
+header {
+	overflow:hidden;
+	background-color: #444;
+	height: 60px;
+}
+.image li{
+	border:1px solid grey;
+	width: 130px;
+	
+	text-align: center;
+	padding:5px 10px ;
+	margin-bottom: 15px;
+	line-height: 30px;
+}
+ul.image {
+	margin-left: 60px;
+}
+.image img {	
+	width:100%;
+}
+textarea {
+	width:40%;
+	height:80px;
+}
+.in {
+	width: 100%;
+	height:40px;
+	color:#fff;
+	background-color:#06c;
+	border-radius: 15px;
+	font-size: 17px;
+	font-weight: bold;
+}
