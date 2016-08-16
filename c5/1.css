@@ -6,8 +6,11 @@ body {
 	font-family: "微软雅黑";
 }
 .main {
-	background-color: #ddd;
+	
 	padding: 25px;
+	float: left;
+	width: auto;
+	margin-right: 345px;
 }
 section {
 	line-height: 35px;
@@ -15,7 +18,7 @@ section {
 	padding: 25px 10px 10px 20px;
     box-shadow: 1px 1px 1px #888;
     margin-bottom: 15px;
-	
+	overflow: hidden;
 }
 section h3,small {
 	color:#777;
@@ -121,4 +124,26 @@ textarea {
 	border-radius: 15px;
 	font-size: 17px;
 	font-weight: bold;
+}
+#asi {
+	float: left;
+	width:300px;
+	margin-left: -350px;
+	margin-top: 25px;
+}
+#container {
+	overflow: hidden;
+	background-color: #ddd;
+}
+.image li {
+	float: left;
+	margin-right:10px; 
+}
+footer {
+	width: 100%;
+	background-color: #444;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
 }
